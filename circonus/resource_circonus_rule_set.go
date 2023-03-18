@@ -3,7 +3,7 @@ package circonus
 import (
 	"encoding/json"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"sort"
 	"strconv"
 	"time"
