@@ -1,6 +1,6 @@
 package circonus
 
-import "log"
+import log "github.com/sourcegraph-ce/logrus"
 
 type interfaceList []interface{}
 type interfaceMap map[string]interface{}
