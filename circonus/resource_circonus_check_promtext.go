@@ -3,7 +3,7 @@ package circonus
 import (
 	"bytes"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net/url"
 	"strconv"
 	"strings"

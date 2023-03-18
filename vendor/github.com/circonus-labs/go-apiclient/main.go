@@ -14,7 +14,7 @@ import (
 	"crypto/x509"
 	"fmt"
 	"io/ioutil"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"math"
 	"math/big"
 	"math/rand"

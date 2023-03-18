@@ -3,7 +3,7 @@ package circonus
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"os"
 
 	api "github.com/circonus-labs/go-apiclient"
